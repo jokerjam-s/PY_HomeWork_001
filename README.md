@@ -13,9 +13,7 @@
 Скриншоты
 
 !["Скрин 1"](/ScreenShots/task_001_01.png 'Screen shot 1')
-
 !["Скрин 2"](/ScreenShots/task_001_02.png 'Screen shot 2')
-
 !["Скрин 3"](/ScreenShots/task_001_03.png 'Screen shot 3')
 
 ---
@@ -39,6 +37,14 @@
 - x=34; y=-30 -> 4
 - x=2; y=4-> 1
 - x=-34; y=-30 -> 3
+
+Скриншоты
+
+!["Скрин 5"](/ScreenShots/task_003_01.png 'Screen shot 5')
+!["Скрин 6"](/ScreenShots/task_003_02.png 'Screen shot 6')
+!["Скрин 7"](/ScreenShots/task_003_03.png 'Screen shot 7')
+
+----
 
 ## Задача 4
 

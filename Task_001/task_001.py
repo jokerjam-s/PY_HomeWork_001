@@ -6,9 +6,6 @@ import os
 
 # получить число с консоли
 #   message - сообщение для пользователя
-from distutils.command.clean import clean
-
-
 def get_int(message: str) -> int:
     return int(input(message))
 
