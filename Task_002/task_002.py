@@ -3,8 +3,6 @@
 #
 
 import os
-from re import X
-
 
 os.system('cls')
 print('проверить предикат ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z \n')
