@@ -6,7 +6,6 @@
 # - A (7,-5); B (1,-1) -> 7,21 
 #
 
-from cmath import sqrt
 import os
 
 # получить число с консоли
@@ -22,7 +21,7 @@ def get_int(message: str) -> int:
 #   by - коорд y точки B
 #
 def calc_line(ax: int, ay: int, bx: int, by: int) -> float:
-    return sqrt((ax - bx)**2 + (ay - by)**2)
+    return ((ax - bx)**2 + (ay - by)**2)**(1/2)
 
 
 ## MAIM ##
@@ -31,7 +30,5 @@ aX = get_int('Координата X точки A: ')
 aY = get_int('Координата Y точки A: ')
 bX = get_int('Координата X точки B: ')
 bY = get_int('Координата Y точки B: ')
-
-# line = calc_line(aX, aY, bX, bY)
 
 print(f'расстояние между точками {calc_line(aX, aY, bX, bY):.3f}')
